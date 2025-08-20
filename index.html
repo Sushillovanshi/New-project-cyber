@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Cybersecurity Practical Roadmap (Daily & Weekly)</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header>
+  <h1>Cybersecurity Practical Roadmap</h1>
+  <p>Daily & Weekly tasks • Personal study tracker • Submit your work</p>
+</header>
+
+<main class="container">
+  <section id="today">
+    <h2>Today’s Task</h2>
+    <div id="todayCard" class="card loading">Loading…</div>
+  </section>
+
+  <section id="schedule">
+    <h2>Full Schedule (60 Days)</h2>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section id="submission">
+    <h2>Submit Your Work</h2>
+    <form id="submitForm" class="card">
+      <label>Name
+        <input type="text" id="name" placeholder="Your name" required>
+      </label>
+      <label>Email
+        <input type="email" id="email" placeholder="your@email.com" required>
+      </label>
+      <label>Day #
+        <input type="number" id="dayIndex" min="1" max="60" required>
+      </label>
+      <label>Notes / Summary
+        <textarea id="notes" rows="6" placeholder="What you did, issues, screenshots link"></textarea>
+      </label>
+      <label>Links (Drive/GitHub/Screenshots)
+        <input type="url" id="links" placeholder="https://...">
+      </label>
+      <button type="submit">Submit</button>
+      <p id="formMsg"></p>
+    </form>
+  </section>
+
+  <section id="submissions">
+    <h2>Recent Submissions</h2>
+    <div id="subsList"></div>
+  </section>
+
+  <footer>
+    <p>Daily emails go to <strong>sushillovanshi8@gmail.com</strong>. Keep this page private to your scope and labs only.</p>
+  </footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

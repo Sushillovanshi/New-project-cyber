@@ -1,0 +1,10 @@
+cyber-roadmap/
+├─ server.js            # Node.js backend (serves site + emails daily task)
+├─ package.json
+├─ .env.example         # Fill & rename to .env
+├─ data/
+│  └─ submissions.json  # Created automatically
+└─ public/
+   ├─ index.html
+   ├─ styles.css
+   └─ app.js
